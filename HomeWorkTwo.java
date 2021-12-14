@@ -14,7 +14,7 @@ class HomeWorkTwo {
         repitWord ("word", 4);
     }
     
-    static boolean checkSumm (int a, int b) {
+    static boolean checkSumm(int a, int b) {
         return (a + b) >=10 && (a + b) <=20;
     }
     
@@ -22,7 +22,7 @@ class HomeWorkTwo {
         System.out.println((a >= 0? "positive" : "negative"));
     }
     
-    static boolean checkNambNegativ (int a) {
+    static boolean checkNambNegativ(int a) {
          return a < 0; 
     }
     static void repitWord(String w, int x) {
