@@ -11,7 +11,7 @@ class HomeWorkTwo {
         System.out.println(checkSumm(5, 5));
         printPositiveorNegative (36) ;
         System.out.println(checkNambNegativ(15));
-        repitWord ("word ", 4);
+        repitWord ("word", 4);
     }
     
     static boolean checkSumm (int a, int b) {
@@ -27,7 +27,7 @@ class HomeWorkTwo {
     }
     static void repitWord(String w, int x) {
         for (int a = 0; a < x; a++) {
-               System.out.print(w);
+               System.out.println(w);
         }
     }    
 }
