@@ -13,7 +13,6 @@ class HomeWorkTwo {
         System.out.println(checkNambNegativ(15));
         repitWord ("word", 4);
     }
-    
     static boolean checkSumm(int a, int b) {
         return (a + b) >=10 && (a + b) <=20;
     }

@@ -13,7 +13,8 @@ class HomeWorkThree {
         fillArray();
         multiplyNumbersInArray();
         fillDiagonal();
-        retArr(5,2);
+        int[] mass = retArr(12, 5);
+        System.out.println(Arrays.toString(mass));
     }
     
     static void invertArray() {
@@ -61,19 +62,19 @@ class HomeWorkThree {
     static void fillDiagonal() {
     int[][] table = new int[3][3];
     for (int i = 0; i < table.length; i++) { 
-         for (int j = 0, x = table[i].length- 1; j < table[i].length; j++, x--) {
-                if (i == j || i == x) table[i][j] = 1;
-                else table[i][j] = 0;
-                System.out.print(table[i][j] + " ");
-            }
+        for (int j = 0, x = table[i].length- 1; j < table[i].length; j++, x--) {
+            if (i == j || i == x) table[i][j] = 1;
+            else table[i][j] = 0;
+            System.out.print(table[i][j] + " ");
+        }
             System.out.print("\n");
     }
     }
-    static void retArr(int len, int initialValue) {
+    static int[]retArr(int len, int initialValue) {
         int[] mass = new int [len];
         for (int i = 0; i < mass.length; i++) {
             mass[i] = initialValue;
         }
-        System.out.println(Arrays.toString(mass));
+        return mass;
     }
 }
